@@ -1,0 +1,8 @@
+EIGEN
+The version of Eigen is 3.3.5. It can be download from bitbucket.org/eigen/eigen/get/3.3.5.zip
+
+FFTW
+fftw can be downloaded from 
+www.fftw.org/install/windows.html
+
+The version in ROPTLIB is 3.3.5
