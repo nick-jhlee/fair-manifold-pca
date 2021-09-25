@@ -9,7 +9,7 @@ If you plan to use this repository or cite our preprint, please use the followin
       title={{Fast and Efficient MMD-based Fair PCA via Optimization over Stiefel Manifold}}, 
       author={Junghyun Lee and Gwangsu Kim and Matt Olfat and Mark Hasegawa-Johnson and Chang D. Yoo},
       year={2021},
-      eprint={},
+      eprint={2109.11196},
       archivePrefix={arXiv},
       primaryClass={stat.ML}
 }
