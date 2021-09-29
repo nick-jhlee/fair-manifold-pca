@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Lee21MBFPCA.aux
+The style file: amsalpha.bst
+Database file #1: references.bib
+Warning--can't use both volume and number if series info is missing
+in BibTeX entry type `inproceedings'
+You've used 27 entries,
+            2624 wiz_defined-function locations,
+            740 strings with 10992 characters,
+and the built_in function-call counts, 14809 in all, are:
+= -- 1329
+> -- 967
+< -- 9
++ -- 350
+- -- 346
+* -- 1251
+:= -- 2350
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 227
+chr.to.int$ -- 27
+cite$ -- 27
+duplicate$ -- 577
+empty$ -- 997
+format.name$ -- 363
+if$ -- 3058
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 50
+newline$ -- 92
+num.names$ -- 99
+pop$ -- 283
+preamble$ -- 1
+purify$ -- 253
+quote$ -- 0
+skip$ -- 514
+stack$ -- 0
+substring$ -- 736
+swap$ -- 157
+text.length$ -- 9
+text.prefix$ -- 1
+top$ -- 1
+type$ -- 213
+warning$ -- 1
+while$ -- 128
+width$ -- 32
+write$ -- 306
+(There was 1 warning)
