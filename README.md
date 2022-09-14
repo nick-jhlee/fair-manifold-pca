@@ -1,18 +1,22 @@
 # MbF-PCA (MMD-based Fair PCA)
 
-This repository provides the implementation of MbF-PCA, described in the paper [*Fast and Efficient MMD-based Fair PCA via Optimization over Stiefel Manifold*]() by Junghyun Lee, Gwangsu Kim, Matt Olfat, Mark Hasegawa-Johnson, and Chang D. Yoo.
+This repository provides the implementation of MbF-PCA, described in the paper [*Fast and Efficient MMD-based Fair PCA via Optimization over Stiefel Manifold*](https://arxiv.org/abs/2109.11196), accepted to AAAI 2022, by Junghyun Lee, Gwangsu Kim, Matt Olfat, Mark Hasegawa-Johnson, and Chang D. Yoo.
 
 If you plan to use this repository or cite our preprint, please use the following bibtex format:
 
 ```latex
-@misc{Lee21,
-      title={{Fast and Efficient MMD-based Fair PCA via Optimization over Stiefel Manifold}}, 
-      author={Junghyun Lee and Gwangsu Kim and Matt Olfat and Mark Hasegawa-Johnson and Chang D. Yoo},
-      year={2021},
-      eprint={2109.11196},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
+@inproceedings{lee2022fairpca,
+	title={{Fast and Efficient MMD-Based Fair PCA via Optimization over Stiefel Manifold}},
+	volume={36},
+	url={https://arxiv.org/abs/2109.11196.pdf},
+	number={7},
+	booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+	author={Lee, Junghyun and Kim, Gwangsu and Olfat, Mahbod and Hasegawa-Johnson, Mark and Yoo, Chang D.},
+	year={2022},
+	month={Jun.},
+	pages={7363-7371}
 }
+
 ```
 
 Most of the codes (mbfpca.m, mmd.m, fairness_metric.m) are written in MATLAB.
