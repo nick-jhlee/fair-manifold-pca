@@ -30,8 +30,9 @@ function [V_final, logs] = mbfpca(X, d, fairness, sigma, rho0, tau)
     end
     X = X(:, 1:end-2);
     
-    % Center the data matrix such that the sum of x_i's is zero
-    X = center(X);
+    % Center the data matrix such that the sum of x_i's (row-vectors) is zero
+    X = X - mean(X);
+%     X = center(X);
     [~, p] = size(X);
     
     % Define total covariance matrix
@@ -152,7 +153,6 @@ function [V_final, logs] = mbfpca(X, d, fairness, sigma, rho0, tau)
 %         V = DriverOPT(fhandle, [], [], [], SolverParams, ManiParams, 0, V_prev);
         
         dist = norm(V.main - V_prev.main, 'fro');
-%         mmd_constraint(V)
         mmd_violation = (mmd_constraint(V) > tau) || (mmd_constraint_(V) > tau);
         
         % Update logs

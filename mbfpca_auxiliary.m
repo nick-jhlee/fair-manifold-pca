@@ -26,8 +26,9 @@ function V_init = mbfpca_auxiliary(X, d, fairness, sigma)
     end
     X = X(:, 1:end-2);
     
-    % Center the data matrix such that the sum of x_i's is zero
-    X = center(X);
+    % Center the data matrix such that the sum of x_i's (row-vectors) is zero
+    X = X - mean(X);
+%     X = center(X);
     [~, p] = size(X);
     
     % Define total covariance matrix

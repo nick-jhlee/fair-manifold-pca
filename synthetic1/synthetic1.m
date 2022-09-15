@@ -20,10 +20,11 @@ X1 = X(Z == 1, 1:end-2);
 X2 = X(Z == 0, 1:end-2);
 m_ = mmd(X1*V_pca, X2*V_pca, sigma)
 rho0 = 0.1/m_;
+tau = 1e-5;
 
 %% Run MbF-PCA
 % [V, logs_] = mbfpca_auxiliary(X, d, fairness);
-[V, logs] = mbfpca(X, d, fairness, sigma, rho0);
+[V, logs] = mbfpca(X, d, fairness, sigma, rho0, tau);
 V = V.main;
 
 X = X(:, 1:end-2);
